@@ -33,6 +33,10 @@ header a {
     color: white;
 }
 
+h2 { 
+    content: 100%;
+}
+
 body {
     /* more of this crazy alphanumerical value in a min! */
     background-color: white;
@@ -293,4 +297,61 @@ footer p {
     color: white;
     font-size: 20px;
     margin-top: 15px;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header { padding-bottom: 0;
+            justify-content: center;
+            position:relative;
+            }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+     
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .hero-cta   {
+        width: 100%;
+    }
+
+    .hero-cta {
+        text-align: center;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+    
+    .trainer {
+        flex: 0 70%;
+    }
+
+    .contact-info {
+        flex: 1 100%;
+    }
+
+    .intro h2 {
+        text-align:right;
+    }
+
+    .in-touch h2 {
+        text-align: center;
+        margin: auto;
+    }
 }
