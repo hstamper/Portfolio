@@ -8,7 +8,7 @@
  * CSS
 
  ## Website
- file:///Users/hilliardstamper/Desktop/Homework/Portfolio/Index.html
+ https://hstamper.github.io/Portfolio/
 
 ## Contribution
 Made/Created by Hilliard E. Stamper III
